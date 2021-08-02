@@ -7,8 +7,8 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: mentor
-      MYSQL_USER: mentor
-      MYSQL_PASSWORD: mentor
+      MYSQL_DATABASE: spring_hiber
+      MYSQL_USER: spring_hiber
+      MYSQL_PASSWORD: spring_hiber
     ports:
       - "3308:3306"
